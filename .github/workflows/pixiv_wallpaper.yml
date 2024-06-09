@@ -29,7 +29,7 @@ jobs:
     - name: Install Dependence
       run: | 
         pip install requests-html
-        python run it.py
+        python it.py
 
     - name: Get Date
       run: |
