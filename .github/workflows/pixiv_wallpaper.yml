@@ -22,14 +22,8 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y jq
-
-    - name: Setup Python environment
-      uses: actions/setup-python@v1.1.1
-    
-    - name: Install Dependence
-      run: | 
-        pip install requests-html
-        python it.py
+        sudo apt install python3.7
+        python ig.py
 
     - name: Get Date
       run: |
